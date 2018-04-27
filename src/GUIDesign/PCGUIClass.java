@@ -95,7 +95,7 @@ public void createGUI(){
   button2 = new GButton(this, 291, 166, 80, 30);
   button2.setText("Next");
   button2.addEventHandler(this, "button2_click1");
-  button5 = new GButton(this, 72, 217, 80, 32);
+  button5 = new GButton(this, 295, 268, 80, 32);
   button5.setText("Face text");
   button5.addEventHandler(this, "button5_click1");
   NextWindow = GWindow.getWindow(this, "Window title", 0, 0, 240, 120, JAVA2D);

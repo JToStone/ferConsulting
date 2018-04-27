@@ -52,6 +52,7 @@ public abstract class MyGUIChanges extends PCGUIClass
 		}
 
 		public void button3_click1(GButton source, GEvent event) {
+			NextWindow.setVisible(false);
 			logEvent("button3",source.getClass().toString(),source.getText(),event);
 		}
 
@@ -59,7 +60,7 @@ public abstract class MyGUIChanges extends PCGUIClass
 			logEvent("button4",source.getClass().toString(),source.getText(),event);
 		} //_CODE_:button4:206151:
 
-		public void button5_click1(GButton source, GEvent event) { //_CODE_:button5:222117:
+		public void button5_click1(GButton source, GEvent event) { //_CODE_:button5:222117:	
 			logEvent("button5",source.getClass().toString(),source.getText(),event);
 		} //_CODE_:button5:222117:
 

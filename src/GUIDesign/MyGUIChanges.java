@@ -57,10 +57,23 @@ public abstract class MyGUIChanges extends PCGUIClass
 		}
 
 		public void button4_click1(GButton source, GEvent event) { //_CODE_:button4:206151:
+			textarea1.setText("    /)/)\r\n" + 
+					"   ( ..\\     \r\n" + 
+					"   /'-._)   \r\n" + 
+					"  /#/       \r\n" + 
+					" /#/ ");
 			logEvent("button4",source.getClass().toString(),source.getText(),event);
 		} //_CODE_:button4:206151:
 
-		public void button5_click1(GButton source, GEvent event) { //_CODE_:button5:222117:	
+		public void button5_click1(GButton source, GEvent event) { //_CODE_:button5:222117:
+			textarea1.setText("           __\r\n" + 
+					"     w  c(..)o   (\r\n" + 
+					"      \\__(-)    __)\r\n" + 
+					"          /\\   (\r\n" + 
+					"         /(_)___)\r\n" + 
+					"         w /|\r\n" + 
+					"          | \\\r\n" + 
+					"         m  m");
 			logEvent("button5",source.getClass().toString(),source.getText(),event);
 		} //_CODE_:button5:222117:
 

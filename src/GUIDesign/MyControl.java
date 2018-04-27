@@ -12,8 +12,8 @@ import g4p_controls.GEvent;
  */
 public class MyControl extends MyGUIChanges
 {
-	public void logEvent (String srcName, String scrClass, String srcText, GEvent event ) {
-		println(srcName+"-"+scrClass+" ("+srcText+") >> GEvent: " + event.name() +"." + event + " @ " + millis());
+	public void logEvent (String srcName, String srcClass, String srcText, GEvent event ) {
+		println(srcName+"-"+srcClass+" ("+srcText+") >> GEvent: " + event.name() +"." + event + " @ " + millis());
 	}
 
 	@Override
